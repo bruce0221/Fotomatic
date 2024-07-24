@@ -17,6 +17,7 @@ html {
 background-image: url("/Users/brucewong/Documents/Resource/Learning/Code Learning/Codecademy/Front End Project/Fotomatic/Code/resources/images/banner-landingpage.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center center;
 }
 
 .center {
@@ -43,7 +44,6 @@ background-size: cover;
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
-    z-index: -1;
   }
 }
 
@@ -63,6 +63,7 @@ background-size: cover;
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -74,6 +75,7 @@ header .content {
   align-items: center; 
   padding: 1.875rem;
   max-height: 5.3125rem;
+  z-index: 100;
 }
 
 header .logo {
@@ -589,12 +591,15 @@ header .mobile {
 
 #quotes-section .content {
   padding: 5rem 0;
+  display: flex;
+  column-gap: 1.875rem ;
+  width: 95%;
+
 }
 
 
 
 #quotes-section .quote {
-  padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
