@@ -14,7 +14,7 @@ html {
 }
 
 .banner { 
-background-image: url("https://github.com/bruce0221/Fotomatic/blob/d0fb6f812ee7eb04f51a29231972df3fbd41eae2/resources/images/banner-landingpage.png");
+background-image: url("./resources/images/banner-landingpage.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
