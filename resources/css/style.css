@@ -14,7 +14,7 @@ html {
 }
 
 .banner { 
-background-image: url("./resources/images/banner-landingpage.png");
+background-image: url("/Users/brucewong/Documents/Resource/Learning/Code Learning/Codecademy/Front End Project/Fotomatic/Code/Fotomatic/resources/images/banner-landingpage.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
